@@ -1,6 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
-
-- Your title can change over time.
+# Group 03 - Anime Analysis
 
 ## Milestones
 
@@ -16,9 +14,9 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- **Guy Kaminsky:** A third-year computer science student who loves to watch anime in his free time and is excited to learn about data science!
+
+- **Jia Quan Wee:** A random guy who dreams of creating a robotic catgirl using the Python knowledge gained from this class!
 
 ## References
 
