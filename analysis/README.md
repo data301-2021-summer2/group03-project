@@ -4,6 +4,6 @@ This directory will contain all drafts, work progress, and analysis of all the g
 
 ## Links
 
-- [Guy Kaminsky](./guy_kaminsky)
+- [Guy Kaminsky](./Guy)
 
-- [Jia Quan Wee](./jq_wee)
+- [Jia Quan Wee](./jia_quan)
