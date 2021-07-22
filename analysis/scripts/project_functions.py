@@ -26,7 +26,6 @@ def countOccurances(listOfGenres):
             counts[key] = 1
     return counts
 
-
 def countWordsInDict(dictonary):
     counts = {}
     for key in dictonary:
