@@ -36,7 +36,14 @@ def countWordsInDict(dictonary):
             else:
                 counts[word] = 1
     return counts
-    
+
+
+def dictToLists(dictonary):
+    lists = []
+    for key, value in dictonary.items():
+        lists.append([key, value])
+    return lists
+
 
 def load_and_process(result):
     # Method Chain 1 (Load data and deal with missing data)
