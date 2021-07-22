@@ -29,7 +29,7 @@ def countOccurances(listOfGenres):
 def countWordsInDict(dictonary):
     counts = {}
     for key in dictonary:
-        words = key.split()
+        words = key.split(', ')
         for word in words:
             if word in counts:
                 counts[word] += 1

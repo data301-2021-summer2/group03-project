@@ -36,5 +36,30 @@ def getYears(list):
     return years
 
 
-listOfYears = ["Spring 1998", "Fall 2020", "Summer 1997"]
-print(getYears(listOfYears))
+# print(getYears(listOfYears))
+
+# turn each key value pair in a dictionary into a list of tupples
+def dictToTupples(dict):
+    tupples = []
+    for key, value in dict.items():
+        tupples.append((key, value))
+    return tupples
+
+
+# turn each key balue pair in a dicitionary into a list of lists
+def dictToLists(dict):
+    lists = []
+    for key, value in dict.items():
+        lists.append([key, value])
+    return lists
+
+
+testDict = {
+    "Action": 792,
+    "Adventure": 500,
+    "Comedy": 935,
+    "Drama": 601,
+    "Sci-Fi": 518,
+    "Space": 99,
+}
+print(dictToLists(testDict))
