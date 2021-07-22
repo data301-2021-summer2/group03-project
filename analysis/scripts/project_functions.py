@@ -14,12 +14,12 @@ def convert(episodeLength):
         return 0
 
 
-
 def load_and_process(result):
     # Method Chain 1 (Load data and deal with missing data)
     df1 = (
         result
     )
+    
     df1 = df1[df1!= 'Unknown']
     
     # df1['Anime_ID'] = df1.index
