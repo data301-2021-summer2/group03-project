@@ -27,15 +27,10 @@ def load_and_process(result):
     df2 = (
         df1.drop(['MAL_ID','Producers', 'Licensors', 'English name', 'Japanese name'], axis=1)
         .dropna(axis='rows')
-        # .rename(columns={"Duration": "Duration (Minutes)"})
-            # .rename(columns={"Weather_Conditions": "Weather_Type", "Did_Police_Officer_Attend_Scene_of_Accident": "Police_Presense"})
-            # .replace({'Police_Presense': {'Yes': True, 'No': False}})
-            # .replace({'Day_of_Week': {1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}})
-            # .convert_dtypes()
-            # .sort_values("Year", ascending=True)
+        .rename(columns={"Duration": "Duration (Minutes)"})
     )
     #   df2['Date'] = pd.to_datetime(df2['Date'], format='%d/%m/%Y')
     for ind in df2.index:
-        df2.loc[ind, 'Duration'] = convert(df2['Duration'][ind])
+        df2.loc[ind, "Duration (Minutes)"] = convert(df2["Duration (Minutes)"][ind])
 
     return df2
