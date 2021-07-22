@@ -17,6 +17,7 @@ def convert(episodeLength):
 def returnList(df, column):
     return df[column].tolist()
 
+
 def countOccurances(listOfGenres):
     counts = {}
     for key in listOfGenres:
@@ -25,6 +26,7 @@ def countOccurances(listOfGenres):
         else:
             counts[key] = 1
     return counts
+
 
 def countWordsInDict(dictonary):
     counts = {}
@@ -44,6 +46,7 @@ def getYears(list):
         year = item.split(" ")
         years.append(year[1])
     return years
+ 
     
 def dictToLists(dictonary):
     lists = []
