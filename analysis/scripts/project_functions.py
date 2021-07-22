@@ -36,6 +36,14 @@ def countWordsInDict(dictonary):
             else:
                 counts[word] = 1
     return counts
+
+
+def getYears(list):
+    years = []
+    for item in list:
+        year = item.split(" ")
+        years.append(year[1])
+    return years
     
 
 def load_and_process(result):
