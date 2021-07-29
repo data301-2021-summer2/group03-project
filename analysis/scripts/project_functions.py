@@ -59,7 +59,6 @@ def load_and_process(result):
         df1
         .drop(columns = ['MAL_ID', 'Producers', 'Licensors', 'English name', 'Japanese name', 'Score-10', 'Score-9', 'Score-8', 'Score-7', 'Score-6', 'Score-5', 'Score-4', 'Score-3', 'Score-2', 'Score-1'])
         .dropna(axis='rows')
-        .rename(columns={"Duration": "Duration (Minutes)"})
         .reset_index(drop = True)
         .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
