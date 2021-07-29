@@ -17,6 +17,7 @@ def convert(episodeLength):
 def returnList(df, column):
     return df[column].tolist()
 
+
 def countOccurances(listOfGenres):
     counts = {}
     for key in listOfGenres:
@@ -25,6 +26,7 @@ def countOccurances(listOfGenres):
         else:
             counts[key] = 1
     return counts
+
 
 def countWordsInDict(dictonary):
     counts = {}
@@ -36,8 +38,8 @@ def countWordsInDict(dictonary):
             else:
                 counts[word] = 1
     return counts
-
-
+ 
+    
 def dictToLists(dictonary):
     lists = []
     for key, value in dictonary.items():
@@ -55,10 +57,14 @@ def load_and_process(result):
     # df1['Anime_ID'] = df1.index
     # Method Chain 2 (Create new columns, drop others, and do processing)
     df2 = (
-        df1.drop(['MAL_ID','Producers', 'Licensors', 'English name', 'Japanese name'], axis=1)
+        df1
+        .drop(columns = ['MAL_ID', 'Producers', 'Licensors', 'English name', 'Japanese name', 'Score-10', 'Score-9', 'Score-8', 'Score-7', 'Score-6', 'Score-5', 'Score-4', 'Score-3', 'Score-2', 'Score-1'])
         .dropna(axis='rows')
         .rename(columns={"Duration": "Duration (Minutes)"})
+        .reset_index(drop = True)
+        .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
+    
     #   df2['Date'] = pd.to_datetime(df2['Date'], format='%d/%m/%Y')
     for ind in df2.index:
         df2.loc[ind, "Duration (Minutes)"] = convert(df2["Duration (Minutes)"][ind])
