@@ -26,9 +26,29 @@ The dataset both of us chose was scrapped off of the website [MyAnimeList](https
 
 ## Team Members
 
+Guy and JQ are two very good friends who enjoy working together. 
+
+<div aling="left">
+    <img src = ./documentation/jq_and_guy.gif>
+</div>
+
+### Introducing the Members
+
 - **Guy Kaminsky:** A third-year computer science student who loves to watch anime in his free time and is excited to learn about data science!
 
+### Currently Favorite Anime
+
+<div align="left">
+  <img src="./documentation/silent_voice.gif">
+</div>
+
 - **Jia Quan Wee:** A random guy who dreams of creating a robotic catgirl using the Python knowledge gained from this class!
+
+### Currently Favorite Anime
+
+<div align="left">
+  <img src="./documentation/bunny_girl.gif">
+</div>
 
 ## References
 
