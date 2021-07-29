@@ -14,9 +14,9 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 Our topic of interest is using basic statistics provided by the anime rankings and digging deeper to explore three main questions.
 
-1. Find the correlation between the rating of the anime and the number of episodes produced: We want to see how the number of episodes of an anime affects its rating.
+1. Find the correlation between the score of the anime and the number of episodes produced: We want to see how the number of episodes of an anime affects its score.
 
-2. How does the duration of an anime affect the completion rate of the anime: Essentially, we want to see if the more prolonged the anime is, how many people end up sticking with finishing to watch that anime.
+2. How does the length of an anime affect the completion rate of the anime: Essentially, we want to see if the more prolonged the anime is, how many people end up sticking with finishing to watch that anime.
 
 3. How does an anime's rating affect the average number of episodes produced, and which ratings tend to have the highest-scoring animes.
 
