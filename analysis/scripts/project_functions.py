@@ -44,8 +44,7 @@ def load_and_process(result):
         result
     )
     df1 = df1[df1!= 'Unknown']
-    
-    # df1['Anime_ID'] = df1.index
+   
     # Method Chain 2 (Create new columns, drop others, and do processing)
     df2 = (
         df1
@@ -54,5 +53,4 @@ def load_and_process(result):
         .reset_index(drop = True)
         .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
-    
     return df2
