@@ -62,7 +62,7 @@ def load_and_process(result):
         .dropna(axis='rows')
         .rename(columns={"Duration": "Duration (Minutes)"})
         .reset_index(drop = True)
-        .astype({"Episodes": int, "Ranked": float, "Score": float})  
+         .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
     
     #   df2['Date'] = pd.to_datetime(df2['Date'], format='%d/%m/%Y')

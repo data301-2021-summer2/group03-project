@@ -1,6 +1,8 @@
 # Group 03 - Anime Analysis
 
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 ## Milestones
 
@@ -14,7 +16,7 @@ Our topic of interest is using basic statistics provided by the anime rankings a
 
 2. How does the duration of an anime affect the completion rate of the anime: Essentially, we want to see if the more prolonged the anime is, how many people end up sticking with finishing to watch that anime.
 
-3. Does the premier date affect the number of people going to view this anime: To emphasize, we want to see if a particular month the pilot episode of an anime airs affects how the anime will do ranking-wise in the longer term.
+3. How does an anime's rating affect the average number of episodes produced, and which ratings tend to have the highest-scoring animes.
 
 We are both interested in this topic because we have been watching anime for many years now. Therefore, this is an opportunity to combine our love of programming and watching anime into one project. In the end, we hope to have a nice user-facing dashboard with this dataset to show off to our future employers while combining both of our passions.
 
