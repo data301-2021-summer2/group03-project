@@ -4,16 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def convert(episodeLength):
-    episodeLength = episodeLength.split()
-    if episodeLength[1] == 'hr.':
-        return (int(episodeLength[0]) * 60) + int(episodeLength[2]) 
-    elif episodeLength[1] == 'min.':
-        return int(episodeLength[0])
-    else:
-        return 0
 
-    
 def returnList(df, column):
     return df[column].tolist()
 
@@ -62,6 +53,4 @@ def load_and_process(result):
         .reset_index(drop = True)
         .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
-    
-
     return df2
