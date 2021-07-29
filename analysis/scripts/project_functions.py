@@ -55,8 +55,4 @@ def load_and_process(result):
         .astype({"Episodes": int, "Ranked": float, "Score": float})  
     )
     
-    #   df2['Date'] = pd.to_datetime(df2['Date'], format='%d/%m/%Y')
-    for ind in df2.index:
-        df2.loc[ind, "Duration (Minutes)"] = convert(df2["Duration (Minutes)"][ind])
-
     return df2
