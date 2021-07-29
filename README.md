@@ -6,7 +6,7 @@
 
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html). The dateset has contains information from
+Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/2021_ST2/data301/project/introduction.html). The dateset has contains information from
 
 ## Describe your topic or interest in about 150-200 words
 
