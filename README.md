@@ -20,6 +20,8 @@ Our topic of interest is using basic statistics provided by the anime rankings a
 
 3. How does an anime's rating affect the average number of episodes produced, and which ratings tend to have the highest-scoring animes.
 
+4. Which anime rating is the most popular for each source material?
+
 We are both interested in this topic because we have been watching anime for many years now. Therefore, this is an opportunity to combine our love of programming and watching anime into one project. In the end, we hope to have a nice user-facing dashboard with this dataset to show off to our future employers while combining both of our passions.
 
 ---
