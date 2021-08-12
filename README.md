@@ -12,7 +12,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic or interest in about 150-200 words
 
-Our topic of interest is using basic statistics provided by the anime rankings and digging deeper to explore three main questions.
+Our topic of interest is using basic statistics provided by the anime rankings and digging deeper to explore four main questions.
 
 1. Find the correlation between the score of the anime and the number of episodes produced: We want to see how the number of episodes of an anime affects its score.
 
