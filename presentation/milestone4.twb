@@ -408,6 +408,26 @@
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Calculation_1602155572549074949:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[avg:Episodes:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Episodes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[avg:Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Calculation_1602155572544745475:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Score:qk]&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:Source:nk]' type='palette'>
             <map to='#499894'>
               <bucket>&quot;Novel&quot;</bucket>
@@ -470,26 +490,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;PG - Children&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Calculation_1602155572549074949:qk]&quot;</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[avg:Episodes:qk]&quot;</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Episodes:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[avg:Score:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Calculation_1602155572544745475:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[sum:Score:qk]&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -1476,8 +1476,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2700' minheight='2700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98230' id='58' param='vert' type-v2='layout-flow' w='99156' x='422' y='885'>
+            <zone h='100000' id='61' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='60' param='vert' type-v2='layout-flow' w='99156' x='422' y='885'>
                 <zone h='6416' id='34' name='Most Popular Genre' param='[federated.1g7zn9i1jzjq0z16d60u50ywbnul].[none:Popularity:qk]' show-null-ctrls='false' show-reldate-picker='false' type-v2='filter' values='database' w='13622' x='34900' y='13717'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2005,7 +2005,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='37' />
       <simple-id uuid='{0E0CED7E-8A70-4086-9989-65186747385A}' />
     </window>
   </windows>
