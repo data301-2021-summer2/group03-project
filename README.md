@@ -37,7 +37,7 @@ The dataset both of us chose was scraped off of the website [MyAnimeList](https:
 Guy and JQ are two very good friends who enjoy working together. 
 
 <div aling="left">
-    <img src = ./documentation/jq_and_guy.gif>
+    <img src = ./images/jq_and_guy.gif>
 </div>
 
 ### Introducing the Members
@@ -47,7 +47,7 @@ Guy and JQ are two very good friends who enjoy working together.
 ### Currently Favorite Anime
 
 <div align="left">
-  <img src="./documentation/silent_voice.gif">
+  <img src="./images/silent_voice.gif">
 </div>
 
 - **Jia Quan Wee:** A random guy who dreams of creating a robotic catgirl using the Python knowledge gained from this class!
@@ -55,7 +55,7 @@ Guy and JQ are two very good friends who enjoy working together.
 ### Currently Favorite Anime
 
 <div align="left">
-  <img src="./documentation/bunny_girl.gif">
+  <img src="./images/bunny_girl.gif">
 </div>
 
 ---
